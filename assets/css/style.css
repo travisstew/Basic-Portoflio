@@ -1,0 +1,75 @@
+body{
+  background: url(assets/images/what-the-hex.png);
+}
+.nav-bar{
+  float: right;
+  margin: 36px;
+  
+}
+.nav-bar li{
+  float: left;
+  display: inline-block;
+  padding-right: 10px;
+  color: #777777;
+  font-size: small;
+ 
+}
+
+#name{
+  display: inline-block;
+  margin: 0px 0px;
+  padding: 20px;
+  background: #4aaaa5;
+  color: #ffffff;
+  }
+h2{
+  border-bottom: solid 2px #dddddd;
+  padding-bottom: 10px; 
+}
+
+.container{
+  margin: 0 auto;
+  width: 960px;
+  padding-top: 1px;
+  background: #ffffff;
+
+ 
+}
+.main-header{
+  border-bottom: solid thick #cccccc;
+  background: white;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+ 
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer{
+  border-top: solid thick black;
+  text-align: center;
+  background: #666666;
+  padding: 25px;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  
+}
+.profile-pic{
+  width: 200px;
+  float: left;
+  padding: 15px;
+}
+.wrapper{
+  min-height: calc(100vh - 25px);
+  min-height: 100vh;
+}
+.main-section{
+  margin-top: 30px;
+  font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+p{
+  line-height: 30px;
+}
